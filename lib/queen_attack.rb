@@ -1,5 +1,5 @@
 class Array
-  def queen_attack(array)
-    
+  def queen_attack? (array)
+    return false
   end
 end
