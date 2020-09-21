@@ -1,5 +1,9 @@
 class Array
   def queen_attack? (array)
-    return false
+    if self[0] == array[0]
+      return true 
+    else
+      return false
+    end
   end
 end

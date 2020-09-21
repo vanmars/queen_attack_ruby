@@ -14,8 +14,8 @@ _This is a project for Epicodus to practice using basic Ruby syntax for variable
 | Spec     | Behavior | Input    | Output   |
 | -------- | -------- | -------- | -------- |
 | 1 | The program returns 'false' if the coordinates are not horizontally, vertically, or diagonally in line with each other. | [0,0].queen_attack?([1, 2])  | False |
-| 2 | The program returns true if the coordinates are horizontally in line with each other.| [0,0].queen_attack?([0, 3]) | True |
-| 3 | The program returns true if the coordinates are vertically in line with each other. | [0,0].queen_attack?([3, 0])  | True |
+| 2 | The program returns true if the coordinates are horizontally in line with each other.| [0,0].queen_attack?([3, 0]) | True |
+| 3 | The program returns true if the coordinates are vertically in line with each other. | [0,0].queen_attack?([0, 3])  | True |
 | 4 | The program returns true if the coordinates are diagonally in line with each other.| [0,0].queen_attack?([3, 3])  | True |
 
 
