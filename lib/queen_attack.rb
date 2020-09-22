@@ -4,6 +4,8 @@ class Array
       return true 
     elsif self[0] == array[0]
       return true
+    elsif (array[0]-self[0]).abs() == (array[1]-self[1]).abs()
+      return true
     else
       return false
     end
